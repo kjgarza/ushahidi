@@ -440,3 +440,4 @@ geocoder.geocode({'latLng': latlng}, function(results, status){ if
 results[0].address_components[4].long_name;
 $("#country_name").val(country); } else { console.log("Geocoder failed
 due to: " + status); } }); }
+
